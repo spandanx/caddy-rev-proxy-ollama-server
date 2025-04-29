@@ -1,0 +1,23 @@
+### Editing /etc/systemd/system/ollama.service.d/override.conf
+### Anything between here and the comment below will become the new contents of the file
+
+[Service]
+Environment="OLLAMA_HOST=0.0.0.0:8084"
+
+### Lines below this comment will be discarded
+
+### /etc/systemd/system/ollama.service
+# [Unit]
+# Description=Ollama Service
+# After=network-online.target
+#
+# [Service]
+# ExecStart=/usr/local/bin/ollama serve
+# User=ollama
+# Group=ollama
+# Restart=always
+# RestartSec=3
+# Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+#
+# [Install]
+# WantedBy=default.target
