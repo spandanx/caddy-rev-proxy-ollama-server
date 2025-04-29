@@ -14,7 +14,7 @@
 :8085 {
     handle /* {
         basic_auth {
-            adm1 $2a$12$AZwAih3f3Cxd0sFedMWwwe9EncKxWcR4NufAXn9R.2eKitwkdHzem
+            user1 $2a$12$SVFZVtnLfA9cSwX7N3Qkh.seKwzM2dmeUfeU0InsEl5HhTCBXL5jy
         }
         reverse_proxy 0.0.0.0:8084
     }
